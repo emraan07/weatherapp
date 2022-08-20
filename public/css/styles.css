@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #fff;
+  /* display: grid;
+  place-items: center; */
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 50px;
+  color: #6f707d;
+  font-family: "Marcellus", serif;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+#heading {
+  font-size: 55px;
+  color: #2b304d;
+}
+
+.temp {
+  place-items: center;
+}
+
+.temp-details > p > span,
+.grey {
+  color: #a3acc1;
+  font-size: 12px;
+}
+
+.fa {
+  color: #a5a5b1;
+}
+
+*:focus {
+  outline: none;
+}
+
+/* Search bar */
+input {
+  box-sizing: border-box;
+  font-size: 13px;
+  vertical-align: top;
+}
+
+.wrapper {
+  text-align: center;
+  /* position: relative; */
+  height: 80px;
+  font-size: 0;
+  /* top: 50%; */
+  /* transform: translateY(-50%); */
+}
+
+.search {
+  padding: 0 30px;
+  font-size: 18px;
+  /* width: 60%; */
+  max-width: 400px;
+  height: 60px;
+  border: 1px solid darken(white, 30%);
+  border-radius: 20px 0 0 20px;
+}
+
+.submit {
+  cursor: pointer;
+  border: none;
+  background: url("http://thesuiteworld.com/wp-admin/maint/search-icon-white-png-540.png")
+      no-repeat center center,
+    #1e1e20;
+  background-size: 35px 35px;
+  border-radius: 0 20px 20px 0;
+  padding: 15px 25px;
+  display: inline-block;
+  width: 150px;
+  height: 60px;
+}
