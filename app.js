@@ -63,6 +63,6 @@ app.post("/", function(req, res) {
     })
     
 })
-app.listen(process.env.port || 4000, function(req, res) {
+app.listen(process.env.port || 4000, function() {
     console.log("Server started running on port 4000");
 })
